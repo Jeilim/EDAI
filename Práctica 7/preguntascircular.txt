@@ -1,3 +1,9 @@
 1. ¿Qué ventaja tiene la lista circular frente a la simple?
+Nos permite recorrer los nodos sin que llegue a NULL.
+
 2. ¿Qué error puede causar un bucle infinito en una lista circular?
+Cuando los punteros no se actualizan bien, porque hace un recorrido que tal vez no llegue al inicio de vuelta, así que no se puede salir del ciclo.
+
 3. ¿Qué estructuras o programas del mundo real se basan en listas circulares?
+Sistemas de audio o videos.
+Juegos de mesa con turnos continuos, como parchís.
