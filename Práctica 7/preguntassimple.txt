@@ -1,4 +1,5 @@
 1. ¿Por qué las listas enlazadas no requieren tamaño fijo como los arreglos?
-
+Porque cada nodo se crea dinámicamente en memoria cuando se usa malloc, sin un tamaño definido, así que puede crecer o reducir conforme se necesita.
 
 2. ¿Qué diferencia hay entre mover la cabeza y modificar los punteros internos?
+Mover la cabeza cambia el inicio de la lista y al modificar los punteros afecta la conexión entre los nodos, lo que altera el orden o elimina a los nodos medios.
