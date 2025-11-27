@@ -1,1 +1,8 @@
+1. ¿Qué diferencias notaron entre el orden de salida de la pila y de la cola?
+La pila utiliza LIFO, el último elemento que entra es el primero que sale, en cambio la cola utiliza FIFO y el primer elemento que entra es el que sale primero.
 
+2. ¿Qué sucede si intentan hacer pop en una pila vacía o dequeue en una cola vacía?
+Se manda un error, debido a que ya no hay elementos por extraer.
+
+3. ¿Qué sucede si intentan insertar más elementos que la capacidad máxima?
+No se aceptan más datos, en la pila se provoca un desbordamiento y en la cola se produce un error por falta de espacio.
