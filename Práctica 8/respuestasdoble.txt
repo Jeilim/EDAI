@@ -1,9 +1,8 @@
-1. ¿Por qué es más fácil eliminar un nodo intermedio en una lista doblemente
-ligada que en una lista simple?
+1. ¿Por qué es más fácil eliminar un nodo intermedio en una lista doblementeligada que en una lista simple?
+Cada nodo tiene un puntero hacia el anterior y el siguiente, por lo que se actualiza fácilmente la conexión sin necesidad de recorrer la lista desde el inicio.
 
-
-2. ¿Qué sucede si se olvida actualizar alguno de los punteros anterior o
-siguiente?
-
+2. ¿Qué sucede si se olvida actualizar alguno de los punteros anterior o siguiente?
+Se rompe la conexión que hay entre los nodos, lo que provoca que unas partes de la lista sean inaccesibles, tengan errores o haya pérdida de memoria.
 
 3. ¿En qué escenarios prácticos se usa una lista doblemente ligada?
+Navegación, ya que va hacia adelante y atrás, deshacer y rehacer acciones en programas de edición.
