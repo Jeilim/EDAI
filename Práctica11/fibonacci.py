@@ -1,4 +1,7 @@
-# Función recursiva para Fibonacci
+from functools import lru_cache
+
+# Función recursiva con memoización
+@lru_cache(maxsize=None)
 def fibonacci(n):
     if n == 0:
         return 0
@@ -9,6 +12,6 @@ def fibonacci(n):
 # Posiciones requeridas
 posiciones = [7, 21, 40, 71, 94]
 
+print("Secuencia de Fibonacci para las posiciones requeridas:\n")
 for pos in posiciones:
     print(f"Fibonacci({pos}) = {fibonacci(pos)}")
-
