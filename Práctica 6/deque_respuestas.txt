@@ -1,3 +1,9 @@
 1. ¿Qué diferencia tiene el deque frente a la cola circular normal?
+Deque permite insertar y eliminar elementos de en frente y la parte trasera, en la cola circular solo se insertan elementos por atrás y se eliminan por delante.
+
 2. ¿Qué operaciones permiten simular tanto FIFO como LIFO?
+Para FIFO, insert_rear y delete_front
+Para LIFO, insert_rear y delete_rear
+
 3. Investiga que aplicaciones prácticas tiene deque.
+Implementa cachers, maneja algoritmos de búsqueda, recorre grafos y maneja buffers circulares.
