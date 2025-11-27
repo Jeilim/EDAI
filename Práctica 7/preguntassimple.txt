@@ -1,0 +1,4 @@
+1. ¿Por qué las listas enlazadas no requieren tamaño fijo como los arreglos?
+
+
+2. ¿Qué diferencia hay entre mover la cabeza y modificar los punteros internos?
