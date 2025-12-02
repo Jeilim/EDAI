@@ -1,5 +1,4 @@
 # Fibonacci Bottom-Up (Programación Dinámica)
-
 def fibonacci_bottom_up(n):
     if n == 0:
         return 0
@@ -10,9 +9,6 @@ def fibonacci_bottom_up(n):
     
     for i in range(2, n + 1):
         tabla.append(tabla[i-1] + tabla[i-2])
-    
-    return tabla[n]
-
 
 # Ejecución de prueba
 n = int(input("Ingresa un número para calcular Fibonacci con Bottom-Up: "))
